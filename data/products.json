@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "image": "assets/fruits.png"
+  },
+  {
+    "id": 2,
+    "image": "assets/diary&egg.png"
+  },
+  {
+    "id": 3,
+    "image": "assets/rice.png"
+  },
+  {
+    "id": 4,
+    "image": "assets/meat.png"
+  },
+  {
+    "id": 5,
+    "image": "assets/masala.png"
+  },
+  {
+    "id": 6,
+    "image": "assets/breakfast.png"
+  },
+  {
+    "id": 7,
+    "image": "assets/packagedfood.png"
+  },
+  {
+    "id": 8,
+    "image": "assets/zeptocafe.png"
+  },
+  {
+    "id": 9,
+    "image": "assets/teacoffee.png"
+  },
+  {
+    "id": 10,
+    "image": "assets/icecream.png"
+  },
+  {
+    "id": 11,
+    "image": "assets/frozen.png"
+  },
+  {
+    "id": 12,
+    "image": "assets/sweet.png"
+  },
+  {
+    "id": 13,
+    "image": "assets/colddrinks.png"
+  }
+]

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- tailwind css -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <!-- styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="bg-gray-50">
+  <!-- top navbar -->
+  <header
+    class="fixed top-0 left-0 w-full z-50 flex items-center justify-between gap-6 px-6 md:px-16 py-5 bg-white border-b border-gray-200">
+    <div class="flex items-center gap-6 min-w-fit flex-shrink-0">
+      <!-- logo -->
+      <div class="flex items-center space-x-2 flex-shrink-0">
+        <img src="assets/primary-logo.svg" alt="logo" class="w-24 h-auto" />
+      </div>
+      <!-- location -->
+      <div class="flex items-center gap-1 cursor-pointer text-gray-800 whitespace-nowrap">
+        <span class="text-sm font-medium">Select Location</span>
+        <img src="assets/down.png" alt="down" class="w-3 h-3" />
+      </div>
+    </div>
+    <!-- search bar -->
+    <div class="flex items-center flex-grow max-w-3xl border border-gray-300 rounded-lg px-3 py-3 mx-2 min-w-[120px]">
+      <input id="searchInput" type="text" placeholder='Search for " Amul butter " '
+        class="flex-1 bg-transparent outline-none text-sm text-gray-700 placeholder-gray-500" />
+    </div>
+    <!-- login and cart -->
+    <div class="flex items-center gap-6 min-w-fit flex-shrink-0">
+      <button class="flex flex-col items-center text-gray-700 hover:text-purple-600">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-5 h-5">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M15.75 9A3.75 3.75 0 1112 5.25 3.75 3.75 0 0115.75 9zM4.5 19.5A7.5 7.5 0 0112 12a7.5 7.5 0 017.5 7.5" />
+        </svg>
+        <span class="text-sm font-medium">Login</span>
+      </button>
+
+      <button class="flex flex-col items-center text-gray-700 hover:text-purple-600">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-5 h-5">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M2.25 3h1.5l1.5 9h12l1.5-9H3.75M6 21a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm10.5 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+        </svg>
+        <span class="text-sm font-medium">Cart</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Navbar -->
+  <nav class="fixed top-[80px] left-0 w-full z-40 bg-white border-b-2 border-gray-200">
+    <!-- left arrow -->
+    <button id="scrollLeft"
+      class="absolute left-2 top-1/2 -translate-y-1/2 z-10 bg-black text-white p-2 rounded-full shadow-md hover:bg-gray-800 transition">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+        stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+      </svg>
+    </button>
+    <!-- menu items-->
+    <ul id="categoryMenu"
+      class="flex items-center space-x-6 sm:space-x-5 md:space-x-7 px-2 py-2 text-gray-700 font-medium text-sm overflow-x-auto overflow-y-hidden whitespace-nowrap scrollbar-hide scroll-smooth">
+      <li class="flex items-center flex-shrink-0 space-x-1 cursor-pointer hover:text-purple-600">
+        <img src="assets/all.png" alt="all" class="w-6 h-6" />
+        <a href="index.html">
+          <span class="font-sans text-gray-500 text-lg font-medium">All</span>
+        </a>
+      </li>
+      <li class="flex items-center flex-shrink-0 space-x-1 cursor-pointer hover:text-purple-600">
+        <img src="assets/cafe.png" alt="cafe" class="w-6 h-6" />
+        <a href="pages/cafe.html">
+          <span class="font-sans text-gray-500 text-lg font-medium">Cafe</span>
+        </a>
+      </li>
+      <li class="flex items-center flex-shrink-0 space-x-1 cursor-pointer hover:text-purple-600">
+        <img src="assets/home.png" alt="home" class="w-6 h-6" />
+        <a href="pages/home.html">
+          <span class="font-sans text-gray-500 text-lg font-medium">Home</span>
+        </a>
+      </li>
+      <li class="flex items-center flex-shrink-0 space-x-1 cursor-pointer hover:text-purple-600">
+        <img src="assets/toy.png" alt="home" class="w-6 h-6" />
+        <a href="pages/toys.html">
+          <span class="font-sans text-gray-500 text-lg font-medium">Toys</span>
+        </a>
+      </li>
+      <li class="flex items-center flex-shrink-0 space-x-1 cursor-pointer hover:text-purple-600">
+        <img src="assets/fresh.png" alt="home" class="w-6 h-6" />
+        <a href="pages/fresh.html">
+          <span class="font-sans text-gray-500 text-lg font-medium">Fresh</span>
+        </a>
+      </li>
+      <li class="flex items-center flex-shrink-0 space-x-1 cursor-pointer hover:text-purple-600">
+        <img src="assets/electronics.png" alt="home" class="w-6 h-6" />
+        <a href="pages/electronics.html">
+          <span class="font-sans text-gray-500 text-lg font-medium">Electronics</span>
+        </a>
+      </li>
+      <li class="flex items-center flex-shrink-0 space-x-1 cursor-pointer hover:text-purple-600">
+        <img src="assets/mobile.png" alt="home" class="w-6 h-6" />
+        <a href="pages/mobile.html">
+          <span class="font-sans text-gray-500 text-lg font-medium">Mobiles</span>
+        </a>
+      </li>
+      <li class="flex items-center flex-shrink-0 space-x-1 cursor-pointer hover:text-purple-600">
+        <img src="assets/beauty.png" alt="home" class="w-6 h-6" />
+        <a href="pages/beauty.html">
+          <span class="font-sans text-gray-500 text-lg font-medium">Beauty</span>
+        </a>
+      </li>
+      <li class="flex items-center flex-shrink-0 space-x-1 cursor-pointer hover:text-purple-600">
+        <img src="assets/fashion.png" alt="home" class="w-6 h-6" />
+        <a href="pages/fashion.html">
+          <span class="font-sans text-gray-500 text-lg font-medium">Fashion</span>
+        </a>
+      </li>
+    </ul>
+    <!-- right arrow -->
+    <button id="scrollRight"
+      class="absolute right-2 top-1/2 -translate-y-1/2 z-10 bg-black text-white p-2 rounded-full shadow-md hover:bg-gray-800 transition">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+        stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+      </svg>
+    </button>
+  </nav>
+  <main class="pt-[130px]">
+    <!-- hero section -->
+    <div class="flex flex-col gap-6 mt-4 px-4">
+      <div>
+        <img src="assets/herofirst.png" alt="herofirst" />
+      </div>
+      <div>
+        <img src="assets/herosecond.png" alt="herosecond" />
+      </div>
+    </div>
+    <!-- category section -->
+    <section class="relative bg-white py-4">
+      <!-- left arrow -->
+      <button id="catScrollLeft"
+        class="absolute left-2 top-1/2 -translate-y-1/2 z-10 bg-black text-white p-2 rounded-full shadow-md hover:bg-gray-800 transition hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+          stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+        </svg>
+      </button>
+
+      <!-- category container -->
+      <div id="category-container"
+        class="flex items-center gap-6 overflow-x-auto overflow-y-hidden whitespace-nowrap scrollbar-hide scroll-smooth px-4 mt-2">
+      </div>
+
+      <!-- right arrow -->
+      <button id="catScrollRight"
+        class="absolute right-2 top-1/2 -translate-y-1/2 z-10 bg-black text-white p-2 rounded-full shadow-md hover:bg-gray-800 transition">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+          stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+        </svg>
+      </button>
+    </section>
+
+    <section class="bg-white py-8 px-6">
+      <!-- product section -->
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xl font-bold text-gray-800">Laundry Care</h2>
+        <a href="#" class="text-pink-600 text-sm font-semibold">
+          See All &rarr;
+        </a>
+      </div>
+      <!-- Product Cards Row -->
+      <div class="flex gap-6 overflow-x-auto scrollbar-hide">
+        <!-- card 1 -->
+        <div class="w-[140px] flex-shrink-0">
+          <!-- image container -->
+          <div class="border border-gray-200 rounded-md p-1 relative">
+            <img src="assets/tide.webp" alt="Tide Powder" class="w-36 h-36 object-contain rounded-md" />
+            <button
+              class="absolute bottom-2 right-2 bg-white border-2 border-pink-500 text-pink-600 text-xs font-semibold px-3 py-1 rounded-md">
+              ADD
+            </button>
+          </div>
+          <!-- Content -->
+          <div class="mt-3 space-y-1">
+            <div class="flex items-center gap-2">
+              <span class="bg-green-600 text-white text-sm font-semibold px-2 py-0.5 rounded-md shadow">
+                ₹808
+              </span>
+              <span class="text-gray-400 line-through text-sm">₹1115</span>
+            </div>
+            <p class="text-green-600 text-xs font-semibold">₹307 OFF</p>
+            <h3 class="text-sm font-semibold text-gray-800 leading-tight">
+              Tide Plus Jasmine & Rose Detergent Powder
+            </h3>
+            <p class="text-xs text-gray-600">1 pack (10 kg)</p>
+            <span class="inline-block bg-blue-50 text-blue-600 text-xs px-2 py-0.5 rounded-md">
+              Stain Removal
+            </span>
+            <div class="flex items-center gap-1 text-xs text-green-600 font-medium mt-1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                class="w-4 h-4 text-green-500">
+                <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+              </svg>
+              <span>4.7 (10.8k)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- script -->
+  <script src="main.js"></script>
+</body>
+</html>
