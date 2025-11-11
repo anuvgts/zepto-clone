@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 
-<body class="bg-gray-50">
+<body>
   <!-- top navbar -->
   <header
     class="fixed top-0 left-0 w-full z-50 flex items-center justify-between gap-6 px-6 md:px-16 py-5 bg-white border-b border-gray-200">
@@ -165,55 +165,471 @@
       </button>
     </section>
 
+    <!-- Laundry product section -->
     <section class="bg-white py-8 px-6">
-      <!-- product section -->
       <div class="flex items-center justify-between mb-6">
         <h2 class="text-xl font-bold text-gray-800">Laundry Care</h2>
         <a href="#" class="text-pink-600 text-sm font-semibold">
           See All &rarr;
         </a>
       </div>
-      <!-- Product Cards Row -->
-      <div class="flex gap-6 overflow-x-auto scrollbar-hide">
-        <!-- card 1 -->
-        <div class="w-[140px] flex-shrink-0">
-          <!-- image container -->
-          <div class="border border-gray-200 rounded-md p-1 relative">
-            <img src="assets/tide.webp" alt="Tide Powder" class="w-36 h-36 object-contain rounded-md" />
-            <button
-              class="absolute bottom-2 right-2 bg-white border-2 border-pink-500 text-pink-600 text-xs font-semibold px-3 py-1 rounded-md">
-              ADD
-            </button>
+      <div id="laundrycareproduct-container" class="flex gap-6 overflow-x-auto scrollbar-hide"></div>
+    </section>
+
+    <!-- Household product section -->
+    <section class="bg-white py-8 px-6">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xl font-bold text-gray-800">Household Cleaning</h2>
+        <a href="#" class="text-pink-600 text-sm font-semibold">
+          See All &rarr;
+        </a>
+      </div>
+      <div id="householdproduct-container" class="flex gap-6 overflow-x-auto scrollbar-hide"></div>
+    </section>
+
+    <!-- rice product section -->
+    <section class="bg-white py-8 px-6">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xl font-bold text-gray-800">Rice</h2>
+        <a href="#" class="text-pink-600 text-sm font-semibold">
+          See All &rarr;
+        </a>
+      </div>
+      <div id="riceproduct-container" class="flex gap-6 overflow-x-auto scrollbar-hide"></div>
+    </section>
+
+    <!-- Haircare product section -->
+    <section class="bg-white py-8 px-6">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xl font-bold text-gray-800">Haircare</h2>
+        <a href="#" class="text-pink-600 text-sm font-semibold">
+          See All &rarr;
+        </a>
+      </div>
+      <div id="haircareproduct-container" class="flex gap-6 overflow-x-auto scrollbar-hide"></div>
+    </section>
+
+    <!-- dal and pulses product section -->
+    <section class="bg-white py-8 px-6">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xl font-bold text-gray-800">Dal & Pulses</h2>
+        <a href="#" class="text-pink-600 text-sm font-semibold">
+          See All &rarr;
+        </a>
+      </div>
+      <div id="dalandpulsesproduct-container" class="flex gap-6 overflow-x-auto scrollbar-hide"></div>
+    </section>
+
+    <!-- personal hygiene product section -->
+    <section class="bg-white py-8 px-6">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xl font-bold text-gray-800">Personal Hygiene</h2>
+        <a href="#" class="text-pink-600 text-sm font-semibold">
+          See All &rarr;
+        </a>
+      </div>
+      <div id="personalhygineproduct-container" class="flex gap-6 overflow-x-auto scrollbar-hide"></div>
+    </section>
+
+    <!-- oil and ghee product section -->
+    <section class="bg-white py-8 px-6">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xl font-bold text-gray-800">Oil & Ghee</h2>
+        <a href="#" class="text-pink-600 text-sm font-semibold">
+          See All &rarr;
+        </a>
+      </div>
+      <div id="oilsandgheeproduct-container" class="flex gap-6 overflow-x-auto scrollbar-hide"></div>
+    </section>
+
+    <!-- spices product section -->
+    <section class="bg-white py-8 px-6">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xl font-bold text-gray-800">Spices $ Seasonings</h2>
+        <a href="#" class="text-pink-600 text-sm font-semibold">
+          See All &rarr;
+        </a>
+      </div>
+      <div id="spicesandseasoningproduct-container" class="flex gap-6 overflow-x-auto scrollbar-hide"></div>
+    </section>
+
+    <!-- Salt, Sugar & Jaggery product section -->
+    <section class="bg-white py-8 px-6">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xl font-bold text-gray-800">Salt, Sugar & Jaggery </h2>
+        <a href="#" class="text-pink-600 text-sm font-semibold">
+          See All &rarr;
+        </a>
+      </div>
+      <div id="saltsugarandjaggeryproduct-container" class="flex gap-6 overflow-x-auto scrollbar-hide"></div>
+    </section>
+
+    <!-- Chips & Crisps product section -->
+    <section class="bg-white py-8 px-6">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xl font-bold text-gray-800">Chips & Crisps </h2>
+        <a href="#" class="text-pink-600 text-sm font-semibold">
+          See All &rarr;
+        </a>
+      </div>
+      <div id="chipsandcrispsproduct-container" class="flex gap-6 overflow-x-auto scrollbar-hide"></div>
+    </section>
+
+    <!-- Namkeens product section -->
+    <section class="bg-white py-8 px-6">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xl font-bold text-gray-800">Namkeens</h2>
+        <a href="#" class="text-pink-600 text-sm font-semibold">
+          See All &rarr;
+        </a>
+      </div>
+      <div id="namkeensproduct-container" class="flex gap-6 overflow-x-auto scrollbar-hide"></div>
+    </section>
+
+    <!-- Soft Drinks & Mixers product section -->
+    <section class="bg-white py-8 px-6">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xl font-bold text-gray-800">Soft Drinks & Mixers</h2>
+        <a href="#" class="text-pink-600 text-sm font-semibold">
+          See All &rarr;
+        </a>
+      </div>
+      <div id="softdrinksproduct-container" class="flex gap-6 overflow-x-auto scrollbar-hide"></div>
+    </section>
+
+    <!-- Juices & Health Drinks product section -->
+    <section class="bg-white py-8 px-6">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xl font-bold text-gray-800">Juices & Health Drinks</h2>
+        <a href="#" class="text-pink-600 text-sm font-semibold">
+          See All &rarr;
+        </a>
+      </div>
+      <div id="juiceproduct-container" class="flex gap-6 overflow-x-auto scrollbar-hide"></div>
+    </section>
+
+    <!-- Chocolates product section -->
+    <section class="bg-white py-8 px-6">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xl font-bold text-gray-800">Chocolates </h2>
+        <a href="#" class="text-pink-600 text-sm font-semibold">
+          See All &rarr;
+        </a>
+      </div>
+      <div id="chocolateproduct-container" class="flex gap-6 overflow-x-auto scrollbar-hide"></div>
+    </section>
+
+    <!-- Cakes & Indian Mithai product section -->
+    <section class="bg-white py-8 px-6">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xl font-bold text-gray-800">Cakes & Indian Mithai </h2>
+        <a href="#" class="text-pink-600 text-sm font-semibold">
+          See All &rarr;
+        </a>
+      </div>
+      <div id="cakeproduct-container" class="flex gap-6 overflow-x-auto scrollbar-hide"></div>
+    </section>
+
+    <!-- Instant Foods product section -->
+    <section class="bg-white py-8 px-6">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xl font-bold text-gray-800">Instant Foods </h2>
+        <a href="#" class="text-pink-600 text-sm font-semibold">
+          See All &rarr;
+        </a>
+      </div>
+      <div id="instantfoodproduct-container" class="flex gap-6 overflow-x-auto scrollbar-hide"></div>
+    </section>
+
+    <!-- Dairy Products section -->
+    <section class="bg-white py-8 px-6">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xl font-bold text-gray-800">Dairy Products </h2>
+        <a href="#" class="text-pink-600 text-sm font-semibold">
+          See All &rarr;
+        </a>
+      </div>
+      <div id="diaryproduct-container" class="flex gap-6 overflow-x-auto scrollbar-hide"></div>
+    </section>
+
+    <!-- Milk Drinks & Mixers product section -->
+    <section class="bg-white py-8 px-6">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xl font-bold text-gray-800">Milk Drinks & Mixers </h2>
+        <a href="#" class="text-pink-600 text-sm font-semibold">
+          See All &rarr;
+        </a>
+      </div>
+      <div id="milkdrinksproduct-container" class="flex gap-6 overflow-x-auto scrollbar-hide"></div>
+    </section>
+
+    <!-- Bakery products  section -->
+    <section class="bg-white py-8 px-6">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xl font-bold text-gray-800">Bakery products </h2>
+        <a href="#" class="text-pink-600 text-sm font-semibold">
+          See All &rarr;
+        </a>
+      </div>
+      <div id="bakeryproduct-container" class="flex gap-6 overflow-x-auto scrollbar-hide"></div>
+    </section>
+
+    <!-- Breakfast Foods product section -->
+    <section class="bg-white py-8 px-6">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xl font-bold text-gray-800">Breakfast Foods </h2>
+        <a href="#" class="text-pink-600 text-sm font-semibold">
+          See All &rarr;
+        </a>
+      </div>
+      <div id="breakfastfoodproduct-container" class="flex gap-6 overflow-x-auto scrollbar-hide"></div>
+    </section>
+
+    <!-- Biscuits, Rusks & Khari product section -->
+    <section class="bg-white py-8 px-6">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xl font-bold text-gray-800">Biscuits, Rusks & Khari </h2>
+        <a href="#" class="text-pink-600 text-sm font-semibold">
+          See All &rarr;
+        </a>
+      </div>
+      <div id="biscuitsproduct-container" class="flex gap-6 overflow-x-auto scrollbar-hide"></div>
+    </section>
+
+    <!-- Tea, Coffe & More product section -->
+    <section class="bg-white py-8 px-6">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xl font-bold text-gray-800">Tea, Coffe & More </h2>
+        <a href="#" class="text-pink-600 text-sm font-semibold">
+          See All &rarr;
+        </a>
+      </div>
+      <div id="teaproduct-container" class="flex gap-6 overflow-x-auto scrollbar-hide"></div>
+    </section>
+
+    <!-- spreads product section -->
+    <section class="bg-white py-8 px-6">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xl font-bold text-gray-800">Spreads & Sauces </h2>
+        <a href="#" class="text-pink-600 text-sm font-semibold">
+          See All &rarr;
+        </a>
+      </div>
+      <div id="spreadproduct-container" class="flex gap-6 overflow-x-auto scrollbar-hide"></div>
+    </section>
+
+    <!-- Oral Care product section -->
+    <section class="bg-white py-8 px-6">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xl font-bold text-gray-800">Oral Care </h2>
+        <a href="#" class="text-pink-600 text-sm font-semibold">
+          See All &rarr;
+        </a>
+      </div>
+      <div id="oralcareproduct-container" class="flex gap-6 overflow-x-auto scrollbar-hide"></div>
+    </section>
+
+    <!-- image section -->
+    <section class=" py-8 px-6">
+      <div>
+        <img src="assets/zeptoteam.webp" alt="zeptoteam" class="rounded-xl" />
+      </div>
+    </section>
+
+    <!-- card section-->
+    <div class="m-8 flex flex-col items-center border-b border-gray-200 pb-9">
+      <h1 class="font-bold text-2xl text-black mb-8 text-center">
+        How it Works
+      </h1>
+      <div class="flex flex-row justify-evenly items-stretch flex-wrap gap-8 w-full max-w-6xl">
+        <div class="w-64 rounded-xl shadow-md text-center border border-gray-200 p-4 justify-between">
+          <div>
+            <img src="assets/place-order.svg" alt="placeorder" class="mx-auto mb-4 w-20 h-20" />
+            <h1 class="text-lg font-semibold mb-2">Open the app</h1>
+            <p class="text-sm text-gray-600">
+              Choose from over 7000 products across groceries, fresh fruits &
+              veggies, meat, pet care, beauty items & more.
+            </p>
           </div>
-          <!-- Content -->
-          <div class="mt-3 space-y-1">
-            <div class="flex items-center gap-2">
-              <span class="bg-green-600 text-white text-sm font-semibold px-2 py-0.5 rounded-md shadow">
-                ₹808
-              </span>
-              <span class="text-gray-400 line-through text-sm">₹1115</span>
-            </div>
-            <p class="text-green-600 text-xs font-semibold">₹307 OFF</p>
-            <h3 class="text-sm font-semibold text-gray-800 leading-tight">
-              Tide Plus Jasmine & Rose Detergent Powder
-            </h3>
-            <p class="text-xs text-gray-600">1 pack (10 kg)</p>
-            <span class="inline-block bg-blue-50 text-blue-600 text-xs px-2 py-0.5 rounded-md">
-              Stain Removal
-            </span>
-            <div class="flex items-center gap-1 text-xs text-green-600 font-medium mt-1">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                class="w-4 h-4 text-green-500">
-                <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-              </svg>
-              <span>4.7 (10.8k)</span>
-            </div>
+        </div>
+        <div class="w-64  rounded-xl shadow-md text-center border border-gray-200 p-4 flex flex-col justify-between">
+          <div>
+            <img src="assets/do-not-blink.svg" alt="placeorder" class="mx-auto mb-4 w-20 h-20" />
+            <h1 class="text-lg font-semibold mb-2">Place an order</h1>
+            <p class="text-sm text-gray-600">
+              Add your favourite items to the cart & avail the best offers.
+            </p>
+          </div>
+        </div>
+        <div class="w-64 rounded-xl shadow-md text-center border border-gray-200 p-4 flex flex-col justify-between">
+          <div>
+            <img src="assets/enjoy.svg" alt="placeorder" class="mx-auto mb-4 w-20 h-20" />
+            <h1 class="text-lg font-semibold mb-2">Get free delivery</h1>
+            <p class="text-sm text-gray-600">
+              Experience lightning-fast speed & get all your items delivered
+              in 10 minutes.
+            </p>
           </div>
         </div>
       </div>
+    </div>
+
+    <!-- popular search section -->
+    <section class="px-8 py-10">
+      <h2 class="text-2xl font-bold text-gray-900 mb-6 text-center">
+        Popular Searches
+      </h2>
+
+      <!-- Product -->
+      <div class="mb-4 flex text-sm">
+        <p class="text-black">Products&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;</p>
+        <p class="text-gray-600 flex flex-wrap gap-2">
+          <span class="cursor-pointer">Avocado</span> |
+          <span class="cursor-pointer">Strawberry</span> |
+          <span class="cursor-pointer">Pomegranate</span> |
+          <span class="cursor-pointer">Beetroot</span> |
+          <span class="cursor-pointer">Ash gourd</span> |
+          <span class="cursor-pointer">Bottle gourd</span> |
+          <span class="cursor-pointer">Lady finger</span> |
+          <span class="cursor-pointer">Potato</span> |
+          <span class="cursor-pointer">Lemon</span> |
+          <span class="cursor-pointer">Dalchini</span> |
+          <span class="cursor-pointer">Fennel seeds</span> |
+          <span class="cursor-pointer">Blueberry</span> |
+          <span class="cursor-pointer">Papaya</span> |
+          <span class="cursor-pointer">Dragon fruit</span> |
+          <span class="cursor-pointer">Mushroom</span> |
+          <span class="cursor-pointer">Lettuce</span>
+        </p>
+      </div>
+
+      <!-- Brands  -->
+      <div class="mb-6 flex text-sm">
+        <p class="text-black">
+          Brands&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;
+        </p>
+        <p class="text-gray-600 flex flex-wrap gap-2">
+          <span class="cursor-pointer">Yakult</span> |
+          <span class="cursor-pointer">My Muse</span> |
+          <span class="cursor-pointer">Aashirvaad Atta</span> |
+          <span class="cursor-pointer">Too Yumm</span> |
+          <span class="cursor-pointer">Lays</span> |
+          <span class="cursor-pointer">Figaro Olive Oil</span> |
+          <span class="cursor-pointer">Nandini Milk</span> |
+          <span class="cursor-pointer">Amul</span> |
+          <span class="cursor-pointer">Mother Dairy Near Me</span> |
+          <span class="cursor-pointer">Fortune Oil</span> |
+          <span class="cursor-pointer">Superyou</span> |
+          <span class="cursor-pointer">Durex Condoms</span> |
+          <span class="cursor-pointer">Ferns and Petals</span>
+        </p>
+      </div>
+
+      <!-- Categories  -->
+      <div class="mb-6 flex text-sm">
+        <p class="text-black">Categories&nbsp;:&nbsp;</p>
+        <p class="text-gray-600 flex flex-wrap gap-2">
+          <span class="cursor-pointer">Grocery</span> |
+          <span class="cursor-pointer">Cigarettes</span> |
+          <span class="cursor-pointer">Chips</span> |
+          <span class="cursor-pointer">Curd</span> |
+          <span class="cursor-pointer">Hukka flavour</span> |
+          <span class="cursor-pointer">Paan shop near me</span> |
+          <span class="cursor-pointer">Eggs price</span> |
+          <span class="cursor-pointer">Cheese slice</span> |
+          <span class="cursor-pointer">Fresh fruits</span> |
+          <span class="cursor-pointer">Fresh vegetables</span> |
+          <span class="cursor-pointer">Refined oil</span> |
+          <span class="cursor-pointer">Butter price</span> |
+          <span class="cursor-pointer">Paneer price</span>
+        </p>
+      </div>
     </section>
+
+    <!-- Categories section -->
+    <div>
+      <h3 class="text-black m-4 font-bold text-md">Categories&nbsp;:&nbsp;</h3>
+      <div class="grid grid-cols-5 m-4  gap-x-12 gap-y-2 text-sm text-black-600">
+        <a href="#" class="cursor-pointer ">Fruits & Vegetables</a>
+        <a href="#" class="cursor-pointer ">Atta, Rice, Oil & Dals</a>
+        <a href="#" class="cursor-pointer ">Masala & Dry Fruits</a>
+        <a href="#" class="cursor-pointer ">Sweet Cravings</a>
+        <a href="#" class="cursor-pointer ">Frozen Food & Ice Creams</a>
+        <a href="#" class="cursor-pointer ">Meats, Fish & Eggs</a>
+        <a href="#" class="cursor-pointer ">Baby Food</a>
+        <a href="#" class="cursor-pointer ">Dairy, Bread & Eggs</a>
+        <a href="#" class="cursor-pointer ">Cold Drinks & Juices</a>
+        <a href="#" class="cursor-pointer ">Munchies</a>
+        <a href="#" class="cursor-pointer ">Biscuits</a>
+        <a href="#" class="cursor-pointer ">Bath & Body</a>
+        <a href="#" class="cursor-pointer ">Breakfast & Sauces</a>
+        <a href="#" class="cursor-pointer ">Tea, Coffee & More</a>
+        <a href="#" class="cursor-pointer ">Electricals & Accessories</a>
+        <a href="#" class="cursor-pointer ">Makeup & Beauty</a>
+        <a href="#" class="cursor-pointer ">Cleaning Essentials</a>
+        <a href="#" class="cursor-pointer ">Hygiene & Grooming</a>
+        <a href="#" class="cursor-pointer ">Home Needs</a>
+        <a href="#" class="cursor-pointer ">Homegrown Brands</a>
+        <a href="#" class="cursor-pointer ">Paan Corner</a>
+        <a href="#" class="cursor-pointer ">Health & Baby Care</a>
+
+      </div>
+    </div>
+
+    <!-- footer section -->
+    <footer
+      class="border-t border-gray-200 px-8 py-10 flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
+      <!-- left side -->
+      <div class="flex flex-col gap-4">
+        <div class="flex items-center gap-2">
+          <img src="assets/zeptologo.svg" alt="Zepto" class="w-20" />
+        </div>
+        <div class="flex gap-4 text-gray-500 text-xl">
+          <img src="assets/instagram.svg" alt="instagram">
+          <img src="assets/twitter.svg" alt="twitter">
+          <img src="assets/facebook.svg" alt="facebook">
+          <img src="assets/linkedin.svg" alt="linkedin">
+        </div>
+        <p class="text-xs text-gray-500">
+          © Zepto Marketplace Private Limited<br />
+          fssai lic no : 11224999000872
+        </p>
+      </div>
+
+      <!-- Middle -->
+      <div class="grid grid-cols-2  gap-x-12 gap-y-2 text-sm text-black-600">
+        <a href="#" class="cursor-pointer">Home</a>
+        <a href="#" class="cursor-pointer">Privacy Policy</a>
+        <a href="#" class="cursor-pointer">Delivery Areas</a>
+        <a href="#" class="cursor-pointer">Terms of Use</a>
+        <a href="#" class="cursor-pointer">Careers</a>
+        <a href="#" class="cursor-pointer">Responsible Disclosure</a>
+        <a href="#" class="cursor-pointer">Customer Support</a>
+        <a href="#" class="cursor-pointer">Sell on Zepto</a>
+        <a href="#" class="cursor-pointer">Press</a>
+        <a href="#" class="cursor-pointer">Deliver with Zepto</a>
+        <a href="#" class="cursor-pointer">Mojo -a Zepto Blog</a>
+        <a href="#" class="cursor-pointer">Franchise with Zepto</a>
+      </div>
+
+      <!-- Right  -->
+      <div class="flex flex-col gap-3">
+        <h4 class="font-2xl">Download App</h4>
+        <button
+          class="flex items-center justify-center gap-2 border border-gray-300 rounded-md px-3 py-2 cursor-pointer">
+          <img src="assets/play-store.svg" alt="Play Store" class="w-5" />
+          <span>Get it on Play Store</span>
+        </button>
+        <button
+          class="flex items-center justify-center gap-2 border border-gray-300 rounded-md px-3 py-2 cursor-pointer">
+          <img src="assets/app-store.svg" alt="App Store" class="w-5" />
+          <span>Get it on App Store</span>
+        </button>
+      </div>
+    </footer>
   </main>
   <!-- script -->
   <script src="main.js"></script>
 </body>
+
 </html>

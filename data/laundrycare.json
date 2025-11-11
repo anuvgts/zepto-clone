@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Tide Plus Jasmine & Rose Detergent Powder",
+    "price": 808,
+    "oldPrice": 1115,
+    "discount": 307,
+    "description": "1 pack (10 kg)",
+    "badge": "Stain Removal",
+    "rating": 4.7,
+    "reviews": "10.8k",
+    "image": "assets/tide.webp"
+  },
+  {
+    "name": "Surf Excel Matic Front Load Detergent Powder",
+    "price": 950,
+    "oldPrice": 1200,
+    "discount": 250,
+    "description": "1 pack (6 kg)",
+    "badge": "Easy Dissolve",
+    "rating": 4.8,
+    "reviews": "9.2k",
+    "image": "assets/ariel.webp"
+  }
+]

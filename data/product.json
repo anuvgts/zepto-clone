@@ -1,0 +1,776 @@
+{
+  "laundry": [
+    {
+      "name": "Tide Plus Jasmine & Rose Detergent Powder",
+      "price": 808,
+      "oldPrice": 1115,
+      "discount": 307,
+      "description": "1 pack (10 kg)",
+      "badge": "Stain Removal",
+      "rating": 4.7,
+      "reviews": "10.8k",
+      "image": "assets/tide.webp"
+    },
+    {
+      "name": "Surf Excel Matic Front Load Detergent Powder",
+      "price": 950,
+      "oldPrice": 1200,
+      "discount": 250,
+      "description": "1 pack (6 kg)",
+      "badge": "Easy Dissolve",
+      "rating": 4.8,
+      "reviews": "9.2k",
+      "image": "assets/ariel.webp"
+    },
+    {
+      "name": "Surf Excel Matic Front Load Detergent Powder",
+      "price": 950,
+      "oldPrice": 1200,
+      "discount": 250,
+      "description": "1 pack (6 kg)",
+      "badge": "Easy Dissolve",
+      "rating": 4.8,
+      "reviews": "9.2k",
+      "image": "assets/ariel.webp"
+    },
+    {
+      "name": "Surf Excel Matic Front Load Detergent Powder",
+      "price": 950,
+      "oldPrice": 1200,
+      "discount": 250,
+      "description": "1 pack (6 kg)",
+      "badge": "Easy Dissolve",
+      "rating": 4.8,
+      "reviews": "9.2k",
+      "image": "assets/ariel.webp"
+    },
+    {
+      "name": "Surf Excel Matic Front Load Detergent Powder",
+      "price": 950,
+      "oldPrice": 1200,
+      "discount": 250,
+      "description": "1 pack (6 kg)",
+      "badge": "Easy Dissolve",
+      "rating": 4.8,
+      "reviews": "9.2k",
+      "image": "assets/ariel.webp"
+    },
+    {
+      "name": "Surf Excel Matic Front Load Detergent Powder",
+      "price": 950,
+      "oldPrice": 1200,
+      "discount": 250,
+      "description": "1 pack (6 kg)",
+      "badge": "Easy Dissolve",
+      "rating": 4.8,
+      "reviews": "9.2k",
+      "image": "assets/ariel.webp"
+    },
+    {
+      "name": "Surf Excel Matic Front Load Detergent Powder",
+      "price": 950,
+      "oldPrice": 1200,
+      "discount": 250,
+      "description": "1 pack (6 kg)",
+      "badge": "Easy Dissolve",
+      "rating": 4.8,
+      "reviews": "9.2k",
+      "image": "assets/ariel.webp"
+    },
+    {
+      "name": "Surf Excel Matic Front Load Detergent Powder",
+      "price": 950,
+      "oldPrice": 1200,
+      "discount": 250,
+      "description": "1 pack (6 kg)",
+      "badge": "Easy Dissolve",
+      "rating": 4.8,
+      "reviews": "9.2k",
+      "image": "assets/ariel.webp"
+    },
+    {
+      "name": "Surf Excel Matic Front Load Detergent Powder",
+      "price": 950,
+      "oldPrice": 1200,
+      "discount": 250,
+      "description": "1 pack (6 kg)",
+      "badge": "Easy Dissolve",
+      "rating": 4.8,
+      "reviews": "9.2k",
+      "image": "assets/ariel.webp"
+    },
+    {
+      "name": "Surf Excel Matic Front Load Detergent Powder",
+      "price": 950,
+      "oldPrice": 1200,
+      "discount": 250,
+      "description": "1 pack (6 kg)",
+      "badge": "Easy Dissolve",
+      "rating": 4.8,
+      "reviews": "9.2k",
+      "image": "assets/ariel.webp"
+    }
+  ],
+
+  "household": [
+    {
+      "name": "Tide Plus Jasmine & Rose Detergent Powder",
+      "price": 808,
+      "oldPrice": 1115,
+      "discount": 307,
+      "description": "1 pack (10 kg)",
+      "badge": "Stain Removal",
+      "rating": 4.7,
+      "reviews": "10.8k",
+      "image": "assets/tide.webp"
+    },
+    {
+      "name": "Surf Excel Matic Front Load Detergent Powder",
+      "price": 950,
+      "oldPrice": 1200,
+      "discount": 250,
+      "description": "1 pack (6 kg)",
+      "badge": "Easy Dissolve",
+      "rating": 4.8,
+      "reviews": "9.2k",
+      "image": "assets/ariel.webp"
+    },
+    {
+      "name": "Surf Excel Matic Front Load Detergent Powder",
+      "price": 950,
+      "oldPrice": 1200,
+      "discount": 250,
+      "description": "1 pack (6 kg)",
+      "badge": "Easy Dissolve",
+      "rating": 4.8,
+      "reviews": "9.2k",
+      "image": "assets/ariel.webp"
+    },
+    {
+      "name": "Surf Excel Matic Front Load Detergent Powder",
+      "price": 950,
+      "oldPrice": 1200,
+      "discount": 250,
+      "description": "1 pack (6 kg)",
+      "badge": "Easy Dissolve",
+      "rating": 4.8,
+      "reviews": "9.2k",
+      "image": "assets/ariel.webp"
+    },
+    {
+      "name": "Surf Excel Matic Front Load Detergent Powder",
+      "price": 950,
+      "oldPrice": 1200,
+      "discount": 250,
+      "description": "1 pack (6 kg)",
+      "badge": "Easy Dissolve",
+      "rating": 4.8,
+      "reviews": "9.2k",
+      "image": "assets/ariel.webp"
+    },
+    {
+      "name": "Surf Excel Matic Front Load Detergent Powder",
+      "price": 950,
+      "oldPrice": 1200,
+      "discount": 250,
+      "description": "1 pack (6 kg)",
+      "badge": "Easy Dissolve",
+      "rating": 4.8,
+      "reviews": "9.2k",
+      "image": "assets/ariel.webp"
+    },
+    {
+      "name": "Surf Excel Matic Front Load Detergent Powder",
+      "price": 950,
+      "oldPrice": 1200,
+      "discount": 250,
+      "description": "1 pack (6 kg)",
+      "badge": "Easy Dissolve",
+      "rating": 4.8,
+      "reviews": "9.2k",
+      "image": "assets/ariel.webp"
+    },
+    {
+      "name": "Surf Excel Matic Front Load Detergent Powder",
+      "price": 950,
+      "oldPrice": 1200,
+      "discount": 250,
+      "description": "1 pack (6 kg)",
+      "badge": "Easy Dissolve",
+      "rating": 4.8,
+      "reviews": "9.2k",
+      "image": "assets/ariel.webp"
+    },
+    {
+      "name": "Surf Excel Matic Front Load Detergent Powder",
+      "price": 950,
+      "oldPrice": 1200,
+      "discount": 250,
+      "description": "1 pack (6 kg)",
+      "badge": "Easy Dissolve",
+      "rating": 4.8,
+      "reviews": "9.2k",
+      "image": "assets/ariel.webp"
+    },
+    {
+      "name": "Surf Excel Matic Front Load Detergent Powder",
+      "price": 950,
+      "oldPrice": 1200,
+      "discount": 250,
+      "description": "1 pack (6 kg)",
+      "badge": "Easy Dissolve",
+      "rating": 4.8,
+      "reviews": "9.2k",
+      "image": "assets/ariel.webp"
+    }
+  ],
+  "rice": [
+    {
+      "name": "India Gate Basmati Rice Classic",
+      "price": 820,
+      "oldPrice": 980,
+      "discount": 160,
+      "description": "5 kg pack",
+      "badge": "Aromatic Grains",
+      "rating": 4.8,
+      "reviews": "3.5k",
+      "image": "assets/rice1.webp"
+    },
+    {
+      "name": "Daawat Rozana Super Basmati Rice",
+      "price": 720,
+      "oldPrice": 850,
+      "discount": 130,
+      "description": "5 kg pack",
+      "badge": "Everyday Use",
+      "rating": 4.6,
+      "reviews": "2.1k",
+      "image": "assets/rice2.webp"
+    }
+  ],
+
+  "haircare": [
+    {
+      "name": "Dove Intense Repair Shampoo",
+      "price": 250,
+      "oldPrice": 299,
+      "discount": 49,
+      "description": "650 ml bottle",
+      "badge": "Damage Repair",
+      "rating": 4.8,
+      "reviews": "6.2k",
+      "image": "assets/haircare1.webp"
+    },
+    {
+      "name": "Parachute Coconut Hair Oil",
+      "price": 160,
+      "oldPrice": 190,
+      "discount": 30,
+      "description": "400 ml bottle",
+      "badge": "Pure Coconut Oil",
+      "rating": 4.9,
+      "reviews": "8.1k",
+      "image": "assets/haircare2.webp"
+    }
+  ],
+
+  "dalandpulses": [
+    {
+      "name": "Tata Sampann Toor Dal",
+      "price": 180,
+      "oldPrice": 210,
+      "discount": 30,
+      "description": "1 kg pack",
+      "badge": "Protein Rich",
+      "rating": 4.7,
+      "reviews": "3.2k",
+      "image": "assets/dal1.webp"
+    },
+    {
+      "name": "Fortune Moong Dal",
+      "price": 170,
+      "oldPrice": 200,
+      "discount": 30,
+      "description": "1 kg pack",
+      "badge": "Unpolished",
+      "rating": 4.8,
+      "reviews": "4.5k",
+      "image": "assets/dal2.webp"
+    }
+  ],
+
+  "personalhygiene": [
+    {
+      "name": "Dettol Antiseptic Liquid",
+      "price": 95,
+      "oldPrice": 110,
+      "discount": 15,
+      "description": "250 ml bottle",
+      "badge": "Trusted Protection",
+      "rating": 4.8,
+      "reviews": "10.2k",
+      "image": "assets/personalhygiene1.webp"
+    },
+    {
+      "name": "Lifebuoy Hand Sanitizer Total 10",
+      "price": 50,
+      "oldPrice": 65,
+      "discount": 15,
+      "description": "100 ml bottle",
+      "badge": "Kills 99.9% Germs",
+      "rating": 4.6,
+      "reviews": "6.8k",
+      "image": "assets/personalhygiene2.webp"
+    }
+  ],
+
+  "oilsandghee": [
+    {
+      "name": "Fortune Sunlite Refined Sunflower Oil",
+      "price": 180,
+      "oldPrice": 210,
+      "discount": 30,
+      "description": "1 L pouch",
+      "badge": "Cholesterol Free",
+      "rating": 4.7,
+      "reviews": "4.3k",
+      "image": "assets/oil1.webp"
+    },
+    {
+      "name": "Amul Pure Ghee",
+      "price": 575,
+      "oldPrice": 620,
+      "discount": 45,
+      "description": "1 L jar",
+      "badge": "Desi Taste",
+      "rating": 4.9,
+      "reviews": "9.5k",
+      "image": "assets/oil2.webp"
+    }
+  ],
+
+  "spicesandseasoning": [
+    {
+      "name": "Everest Turmeric Powder",
+      "price": 65,
+      "oldPrice": 80,
+      "discount": 15,
+      "description": "200 g pack",
+      "badge": "Pure Spices",
+      "rating": 4.8,
+      "reviews": "3.9k",
+      "image": "assets/spices1.webp"
+    },
+    {
+      "name": "MDH Garam Masala",
+      "price": 85,
+      "oldPrice": 100,
+      "discount": 15,
+      "description": "200 g box",
+      "badge": "Rich Flavor",
+      "rating": 4.7,
+      "reviews": "4.2k",
+      "image": "assets/spices2.webp"
+    }
+  ],
+
+  "saltsugarandjaggery": [
+    {
+      "name": "Tata Salt",
+      "price": 25,
+      "oldPrice": 30,
+      "discount": 5,
+      "description": "1 kg pack",
+      "badge": "Iodized",
+      "rating": 4.8,
+      "reviews": "15.6k",
+      "image": "assets/salt1.webp"
+    },
+    {
+      "name": "Dhampur Jaggery Powder",
+      "price": 75,
+      "oldPrice": 95,
+      "discount": 20,
+      "description": "1 kg pack",
+      "badge": "Natural Sweetener",
+      "rating": 4.6,
+      "reviews": "2.9k",
+      "image": "assets/salt2.webp"
+    }
+  ],
+
+  "chipsandcrisps": [
+    {
+      "name": "Lays Classic Salted Chips",
+      "price": 20,
+      "oldPrice": 25,
+      "discount": 5,
+      "description": "50 g pack",
+      "badge": "Crispy Snack",
+      "rating": 4.7,
+      "reviews": "12.1k",
+      "image": "assets/chips1.webp"
+    },
+    {
+      "name": "Doritos Nacho Cheese",
+      "price": 60,
+      "oldPrice": 75,
+      "discount": 15,
+      "description": "150 g pack",
+      "badge": "Cheesy Crunch",
+      "rating": 4.8,
+      "reviews": "5.7k",
+      "image": "assets/chips2.webp"
+    }
+  ],
+
+  "namkeens": [
+    {
+      "name": "Haldiram’s Bhujia Sev",
+      "price": 45,
+      "oldPrice": 55,
+      "discount": 10,
+      "description": "200 g pack",
+      "badge": "Crispy & Spicy",
+      "rating": 4.9,
+      "reviews": "10.1k",
+      "image": "assets/namkeen1.webp"
+    },
+    {
+      "name": "Bikaji Aloo Bhujia",
+      "price": 40,
+      "oldPrice": 50,
+      "discount": 10,
+      "description": "200 g pack",
+      "badge": "Crunchy Snack",
+      "rating": 4.8,
+      "reviews": "7.4k",
+      "image": "assets/namkeens1.webp"
+    }
+  ],
+
+  "softdrinks": [
+    {
+      "name": "Coca-Cola Soft Drink",
+      "price": 40,
+      "oldPrice": 50,
+      "discount": 10,
+      "description": "750 ml bottle",
+      "badge": "Refreshing Taste",
+      "rating": 4.8,
+      "reviews": "9.3k",
+      "image": "assets/softdrinks1.webp"
+    },
+    {
+      "name": "Pepsi Soft Drink",
+      "price": 40,
+      "oldPrice": 50,
+      "discount": 10,
+      "description": "750 ml bottle",
+      "badge": "Bold Flavor",
+      "rating": 4.7,
+      "reviews": "8.9k",
+      "image": "assets/softdrinks2.webp"
+    }
+  ],
+  "juice": [
+    {
+      "name": "Real Mixed Fruit Juice",
+      "price": 110,
+      "oldPrice": 130,
+      "discount": 20,
+      "description": "1 L carton",
+      "badge": "No Added Preservatives",
+      "rating": 4.8,
+      "reviews": "6.4k",
+      "image": "assets/juice1.webp"
+    },
+    {
+      "name": "Tropicana Orange Delight Juice",
+      "price": 115,
+      "oldPrice": 140,
+      "discount": 25,
+      "description": "1 L carton",
+      "badge": "Rich in Vitamin C",
+      "rating": 4.7,
+      "reviews": "5.2k",
+      "image": "assets/juice2.webp"
+    }
+  ],
+
+  "chocolate": [
+    {
+      "name": "Cadbury Dairy Milk Silk Chocolate",
+      "price": 160,
+      "oldPrice": 180,
+      "discount": 20,
+      "description": "150 g bar",
+      "badge": "Smooth & Creamy",
+      "rating": 4.9,
+      "reviews": "12.8k",
+      "image": "assets/choco1.webp"
+    },
+    {
+      "name": "KitKat 4 Finger Chocolate Bar",
+      "price": 60,
+      "oldPrice": 70,
+      "discount": 10,
+      "description": "37.3 g bar",
+      "badge": "Crunchy Delight",
+      "rating": 4.8,
+      "reviews": "9.5k",
+      "image": "assets/choco2.webp"
+    }
+  ],
+
+  "cake": [
+    {
+      "name": "Britannia Marble Cake",
+      "price": 55,
+      "oldPrice": 65,
+      "discount": 10,
+      "description": "120 g pack",
+      "badge": "Soft & Moist",
+      "rating": 4.7,
+      "reviews": "3.4k",
+      "image": "assets/cake1.webp"
+    },
+    {
+      "name": "Plum Cake by Monginis",
+      "price": 120,
+      "oldPrice": 140,
+      "discount": 20,
+      "description": "250 g pack",
+      "badge": "Rich Fruit Taste",
+      "rating": 4.8,
+      "reviews": "4.8k",
+      "image": "assets/cake2.webp"
+    }
+  ],
+
+  "instantfood": [
+    {
+      "name": "Maggi 2-Minute Noodles Masala",
+      "price": 60,
+      "oldPrice": 75,
+      "discount": 15,
+      "description": "280 g pack (4 units)",
+      "badge": "Instant Classic",
+      "rating": 4.9,
+      "reviews": "18.1k",
+      "image": "assets/instant1.webp"
+    },
+    {
+      "name": "Yippee Noodles Classic Masala",
+      "price": 55,
+      "oldPrice": 70,
+      "discount": 15,
+      "description": "280 g pack",
+      "badge": "Non-Sticky Noodles",
+      "rating": 4.7,
+      "reviews": "7.9k",
+      "image": "assets/instant2.webp"
+    }
+  ],
+
+  "diary": [
+    {
+      "name": "Amul Taaza Toned Milk",
+      "price": 72,
+      "oldPrice": 80,
+      "discount": 8,
+      "description": "1 L pack",
+      "badge": "Fresh Everyday",
+      "rating": 4.8,
+      "reviews": "15.2k",
+      "image": "assets/dairy1.webp"
+    },
+    {
+      "name": "Mother Dairy Curd",
+      "price": 45,
+      "oldPrice": 55,
+      "discount": 10,
+      "description": "400 g cup",
+      "badge": "Thick & Creamy",
+      "rating": 4.9,
+      "reviews": "9.7k",
+      "image": "assets/dairy2.webp"
+    }
+  ],
+
+  "milkdrinks": [
+    {
+      "name": "Amul Kool Kesar Milk Drink",
+      "price": 35,
+      "oldPrice": 45,
+      "discount": 10,
+      "description": "200 ml bottle",
+      "badge": "Refreshing Flavor",
+      "rating": 4.7,
+      "reviews": "5.3k",
+      "image": "assets/milk1.webp"
+    },
+    {
+      "name": "Bournvita Health Drink",
+      "price": 260,
+      "oldPrice": 300,
+      "discount": 40,
+      "description": "500 g jar",
+      "badge": "With Iron & Vitamins",
+      "rating": 4.8,
+      "reviews": "8.4k",
+      "image": "assets/milk2.webp"
+    }
+  ],
+
+  "bakery": [
+    {
+      "name": "Britannia Whole Wheat Bread",
+      "price": 40,
+      "oldPrice": 50,
+      "discount": 10,
+      "description": "400 g loaf",
+      "badge": "Soft & Fresh",
+      "rating": 4.6,
+      "reviews": "7.2k",
+      "image": "assets/bakery1.webp"
+    },
+    {
+      "name": "Modern Milk Bread",
+      "price": 35,
+      "oldPrice": 45,
+      "discount": 10,
+      "description": "400 g loaf",
+      "badge": "Fluffy Texture",
+      "rating": 4.7,
+      "reviews": "6.1k",
+      "image": "assets/bakery2.webp"
+    }
+  ],
+
+  "breakfastfood": [
+    {
+      "name": "Kellogg's Corn Flakes",
+      "price": 210,
+      "oldPrice": 250,
+      "discount": 40,
+      "description": "875 g pack",
+      "badge": "Crunchy Mornings",
+      "rating": 4.8,
+      "reviews": "14.3k",
+      "image": "assets/breakfast1.webp"
+    },
+    {
+      "name": "Quaker Oats",
+      "price": 180,
+      "oldPrice": 220,
+      "discount": 40,
+      "description": "1 kg pack",
+      "badge": "High in Fiber",
+      "rating": 4.7,
+      "reviews": "9.2k",
+      "image": "assets/breakfast2.webp"
+    }
+  ],
+
+  "biscuits": [
+    {
+      "name": "Parle-G Original Glucose Biscuits",
+      "price": 10,
+      "oldPrice": 15,
+      "discount": 5,
+      "description": "100 g pack",
+      "badge": "Energy Snack",
+      "rating": 4.9,
+      "reviews": "25.8k",
+      "image": "assets/rusks1.webp"
+    },
+    {
+      "name": "Britannia Marie Gold Biscuits",
+      "price": 30,
+      "oldPrice": 40,
+      "discount": 10,
+      "description": "200 g pack",
+      "badge": "Light & Crisp",
+      "rating": 4.8,
+      "reviews": "18.4k",
+      "image": "assets/rusks2.webp"
+    }
+  ],
+
+  "tea": [
+    {
+      "name": "Tata Tea Premium",
+      "price": 220,
+      "oldPrice": 250,
+      "discount": 30,
+      "description": "1 kg pack",
+      "badge": "Rich Aroma",
+      "rating": 4.8,
+      "reviews": "14.1k",
+      "image": "assets/tea1.webp"
+    },
+    {
+      "name": "Red Label Natural Care Tea",
+      "price": 260,
+      "oldPrice": 290,
+      "discount": 30,
+      "description": "1 kg pack",
+      "badge": "With Natural Herbs",
+      "rating": 4.7,
+      "reviews": "10.6k",
+      "image": "assets/tea2.webp"
+    }
+  ],
+
+  "spread": [
+    {
+      "name": "Nutella Hazelnut Chocolate Spread",
+      "price": 450,
+      "oldPrice": 500,
+      "discount": 50,
+      "description": "350 g jar",
+      "badge": "Imported",
+      "rating": 4.9,
+      "reviews": "11.7k",
+      "image": "assets/spread1.webp"
+    },
+    {
+      "name": "Amul Butter",
+      "price": 260,
+      "oldPrice": 290,
+      "discount": 30,
+      "description": "500 g pack",
+      "badge": "Made from Fresh Cream",
+      "rating": 4.8,
+      "reviews": "20.3k",
+      "image": "assets/spread2.webp"
+    }
+  ],
+
+  "oralcare": [
+    {
+      "name": "Colgate Strong Teeth Toothpaste",
+      "price": 120,
+      "oldPrice": 150,
+      "discount": 30,
+      "description": "200 g tube",
+      "badge": "Calcium Boost",
+      "rating": 4.9,
+      "reviews": "13.5k",
+      "image": "assets/oral1.webp"
+    },
+    {
+      "name": "Pepsodent Germicheck Toothpaste",
+      "price": 95,
+      "oldPrice": 120,
+      "discount": 25,
+      "description": "200 g tube",
+      "badge": "Fights Germs",
+      "rating": 4.8,
+      "reviews": "9.4k",
+      "image": "assets/oral2.webp"
+    }
+  ]
+}
+
