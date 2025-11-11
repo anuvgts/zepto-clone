@@ -9,7 +9,11 @@ const placeholders = [
 let index = 0;
 setInterval(() => {
     input.placeholder = placeholders[index];
-    index = (index + 1) % placeholders.length;
+    index = index + 1;
+    if (index === placeholders.length)
+    {
+    index = 0;
+    }
 }, 2000);
 
 // Navbar scroll 
@@ -32,10 +36,7 @@ function updateNavbarArrows() {
         return;
     }
     navLeft.style.display = navMenu.scrollLeft > 10 ? "flex" : "none";
-    navRight.style.display =
-        navMenu.scrollLeft + navMenu.clientWidth < navMenu.scrollWidth - 10
-            ? "flex"
-            : "none";
+    navRight.style.display = navMenu.scrollLeft + navMenu.clientWidth < navMenu.scrollWidth - 10 ? "flex" : "none";
 }
 
 navMenu.addEventListener("scroll", updateNavbarArrows);
